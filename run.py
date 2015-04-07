@@ -13,7 +13,7 @@ def main():
 	print "Loop parameters set.\n"
 
 	optimization_levels = [0,2,3]
-	matrix_sizes = [2,4,8,16,32,64,128,256,512,1024]
+	matrix_sizes = [2,4,8,16,32,64,128,256,512,1024,2048]
 
 	f = open("results.csv","w")
 	f.write("BenchPak Results\n\n")
