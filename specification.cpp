@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	
-	uniform_real_distribution<double> rndgen(0.0, 100.0);
+	//uniform_real_distribution<double> rndgen(0.0, 100.0);
 
 	default_random_engine r(chrono::system_clock::now().time_since_epoch().count());
 
@@ -29,8 +29,10 @@ int main()
 	{
 		for (int j = 0; j < LENGTH; j++)
 		{
-			a[i][j] = rndgen(r);
-			b[i][j] = rndgen(r);
+			//a[i][j] = rndgen(r);
+			//b[i][j] = rndgen(r);
+			a[i][j] = 5.0;
+			b[i][j] = 6.0;
 			c[i][j] = 0;
 		}
 	}
